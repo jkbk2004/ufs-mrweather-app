@@ -27,7 +27,7 @@ cd ufs-mrweather-app
 
 ```
 sh build_global-workflow.sh [-a UFS_app] [-c build_config] [-v]  [-h]
--a: S2SWA (default), ATMA, S2S, and S2SW
+-a: S2SWA (default), ATM, ATMA, S2S, and S2SW
 -c: build_config instead of the default config
 -v: build verbose option
 -h: print usesage and exit
