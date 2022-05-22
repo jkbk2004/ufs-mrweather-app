@@ -26,8 +26,12 @@ cd ufs-mrweather-app
 2. Build UFS model and global-workflow components
 
 ```
-sh build_global-workflow.sh [-c]
-(Use the -c option to compile for coupled UFS)
+sh build_global-workflow.sh [-a UFS_app] [-c build_config] [-v]  [-h]
+-a: S2SWA (default), ATMA, S2S, and S2SW
+-c: build_config instead of the default config
+-v: build verbose option
+-h: print usesage and exit
+(e.g.: sh build_global-workflow.sh will build the default option, S2SWA)
 ```
 
 3. Run experiment generator script
